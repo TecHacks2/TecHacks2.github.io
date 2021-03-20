@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TecHacks</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#navHome" id="navbar__logo"><img src="images/techackscircle-final.png" width="10%"></a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#navHome" class="navbar__links">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#navAbout" class="navbar__links">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#navTracks" class="navbar__links">Tracks</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#navfaq" class="navbar__links">FAQ</a>
+          </li>
+          <li class="navbar__btn"><a href="  " class="button">Sign Up</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div id="navHome" class="main">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>TecHacks 2.0</h1>
+          <h2>August 13-15, 2021</h2>
+          <p>Registration opens July 1, 2021.</p>
+          <button class="main__btn"><a href="#navAbout">Learn More</a></button>
+        </div>
+        <div class="main__img--container">
+          <img id="main__img" src="images/home_img.svg" />
+        </div>
+      </div>
+    </div>
+
+    <div id="navAbout" class="about">
+      <h1>About</h1>
+      <div class="about__container">
+        <img id="about__img" src="images/pinkKeyboard.jpeg">
+        <p>Girls from all over the world have a chance to code, compete, connect, and
+          win prizes. Participants will work on a project over the weekend with a team of 1-4 people.
+          The project can be an app, website, or anything else you come up with that focuses on one of
+          the four tracks below. We will have workshops throughout the weekend (refer to schedule below)
+          for all skill levels, from first time coding to expert coder. Mentors will also be available 
+          throughout the weekend to assist teams with their hacks.</p>
+  
+      </div>
+    </div>
+
+    <div id="navTracks" class="tracks">
+      <h1>Tracks</h1>
+      <div class="row">
+        <div class="column">
+          <a href="#modalEducation" id="modal-btn-education" class="tracks__btn"><img src="images/School_Isometric.svg"></a>
+          <h2>Education</h2>
+            <div id="modalEducation" class="modal">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <span class="close1">&times;</span>
+                  <h2>Education</h2>
+                </div>
+                <div class="modal-body">
+                  <p>Code something to help in education! It could be helping students or raising awareness.
+                     As students, we know firsthand the challenges facing the current educational system so 
+                    consider these when brainstorming. Aim to educate!</p>
+                </div>
+                <!-- <div class="modal-footer">
+                  <h3>Modal Footer</h3>
+                </div> -->
+              </div>
+            </div>
+          <a href="#modalActivism" id="modal-btn-activism" class="tracks__btn"><img src="images/Voting_Isometric.svg"></a>
+          <h2>Activism</h2>  
+            <div id="modalActivism" class="modal">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <span class="close2">&times;</span>
+                  <h2>Activism</h2>
+                </div>
+                <div class="modal-body">
+                  <p>You have the power to change the world! Code a project that creates a positive and impactful 
+                    social change, whether it be assisting governments, communities, or more!.</p>
+                </div>
+                <!-- <div class="modal-footer">
+                  <h3>Modal Footer</h3>
+                </div> -->
+              </div>
+            </div>
+        </div>
+        <div class="column">
+          <a href="#modalSustainability" id="modal-btn-sustainability" class="tracks__btn"><img src="images/Watering Plant_Isometric.svg"></a>
+          <h2>Sustainability</h2>
+            <div id="modalSustainability" class="modal">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <span class="close3">&times;</span>
+                  <h2>Sustainability</h2>
+                </div>
+                <div class="modal-body">
+                  <p>Sustainability is defined as the ability to exist constantly. Whether you tailor this idea towards 
+                    environmental concerns or take a novel approach and apply it to another field such as economic growth 
+                    or social relationships. The chioce is yours so code a project that inspires you and helps humanity in some way!</p>
+                </div>
+                <!-- <div class="modal-footer">
+                  <h3>Modal Footer</h3>
+                </div> -->
+              </div>
+            </div>
+          <a href="#modalRecreation" id="modal-btn-recreation" class="tracks__btn"><img src="images/Yoga_Isometric.svg"></a>
+          <h2>Recreation</h2>
+            <div id="modalRecreation" class="modal">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <span class="close4">&times;</span>
+                  <h2>Recreation</h2>
+                </div>
+                <div class="modal-body">
+                  <p>Our most broad category, code anything that excites you. This could be related to fitness, cooking, hobbies, 
+                    or entertainment. If you would enjoy using your project, chances are someone else would too!</p>
+                </div>
+                <!-- <div class="modal-footer">
+                  <h3>Modal Footer</h3>
+                </div> -->
+              </div>
+            </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <!-- FAQ Section -->
+    <div id="navfaq" class="faq">
+      <h1>FAQ</h1>
+      <button class="accordion">Who is eligible to participate?</button>
+        <div class="panel">
+          <p>All self-identifying females (non-binary and trans included) in high school or college can participate in this hackathon!</p>
+        </div>
+
+        <button class="accordion">I don't know how to code... can I still participate?</button>
+        <div class="panel">
+          <p>Yes!</p>
+          <p>TecHacks was created with beginners in mind and feature a lot of "crash course" workshops that will get you coding a project even without any experience.</p>
+        </div>
+
+        <button class="accordion">Do I need a team?</button>
+        <div class="panel">
+          <p>Teams are permitted, but not required. People can work in groups from 2-4 or can work indiviually. </p>
+          <p>If you don't have a team but want one, there will be some you can join on the day of our event!</p>
+        </div>
+
+        <button class="accordion">What should I have during the hackathon?</button>
+        <div class="panel">
+          <p>You have to have a computer with working wifi. (We also recommend lots of snacks :))</p>
+        </div>
+
+        <button class="accordion">How much does it cost?</button>
+        <div class="panel">
+          <p>TecHacks is completely free! You do not need to pay for anything. All costs have been covered by our amazing sponsors!</p>
+        </div>
+
+        <button class="accordion">Can I continue and submit a project I already started?</button>
+        <div class="panel">
+          <p>Sorry, only projects started after the opening ceremony will be eligible for submission.</p>
+        </div>
+
+        <button class="accordion">How can I finish a project in just a weekend?!</button>
+        <div class="panel">
+          <p>Through our hackathon whe hope you create your minimum viable product. We want you to collaborate with others 
+            come up with an idea, and do the best you can to bring it to a reality in a short period of time!</p>
+        </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="contact">
+      <div style="text-align:center">
+        <h1>Contact Us</h1>
+      </div>
+      <div class="columnContact">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your email..">
+          <!-- <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select> -->
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <section class="social__media">
+          <p class="website__rights">©TecHacks 2021. All rights reserved</p>
+          <div class="social__icons">
+            <a
+              class="social__icon--link"
+              href="https://www.facebook.com/techackshackathon"
+              target="_blank"
+              aria-label="Facebook"
+            >
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a
+              class="social__icon--link"
+              href="https://www.instagram.com/techacks_/"
+              target="_blank"
+              aria-label="Instagram"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              class="social__icon--link"
+              href="https://www.linkedin.com/company/techacks2/mycompany/"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
