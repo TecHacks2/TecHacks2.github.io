@@ -637,6 +637,128 @@
     opacity: 1;
   }
 }
+
+/* Sponsors */
+.sponsors {
+  background: #000f3d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.sponsors h1 {
+  background-color: #f37df3;
+  background-image: linear-gradient(to top, #f3a5f3 0%, #f37df3 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-size: 2.5rem;
+  margin-top: 125px;
+}
+
+.sponsors h2 {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.sponsors__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-self: center;
+  margin: 0 auto;
+  background-color: #000f3d;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 150px;
+}
+.sponsors__btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1rem;
+  font-size: 1rem;
+  background-color: transparent;
+  border: none;
+  margin-top: 2rem;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.35s;
+  outline: none;
+}
+
+.sponsors__btn a {
+  position: relative;
+  z-index: 2;
+  text-decoration: none;
+}
+
+.sponsors__btn:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  transition: all 0.35s;
+  border-radius: 4px;
+}
+
+.sponsors__btn:hover {
+  transform: scale(1.1);
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+
+.sponsors__btn:hover:after {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0 4px;
+}
+
+.column {
+  float: left;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.scolumn {
+  float: left;
+  max-width: 33.33%;
+  padding: 0 20px;
+}
+
+.sponsors img {
+  flex-wrap: wrap;
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 60%;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
 /* FAQ Section */
 .faq {
   background: #000f3d;
