@@ -1,7 +1,7 @@
 const menu = document.querySelector('#mobile-menu');
 const menuLinks = document.querySelector('.navbar__menu');
 
-menu.addEventListener('click', function() {
+menu.addEventListener('click', function () {
   menu.classList.toggle('is-active');
   menuLinks.classList.toggle('active');
 });
@@ -21,15 +21,15 @@ const closeBtn3 = document.querySelector('.close3');
 const closeBtn4 = document.querySelector('.close4');
 
 // Events
-modalBtn1.addEventListener('click', openModal1);
-modalBtn2.addEventListener('click', openModal2);
-modalBtn3.addEventListener('click', openModal3);
-modalBtn4.addEventListener('click', openModal4);
-closeBtn1.addEventListener('click', closeModal1);
-closeBtn2.addEventListener('click', closeModal2);
-closeBtn3.addEventListener('click', closeModal3);
-closeBtn4.addEventListener('click', closeModal4);
-window.addEventListener('click', outsideClick);
+// modalBtn1.addEventListener('click', openModal1);
+// modalBtn2.addEventListener('click', openModal2);
+// modalBtn3.addEventListener('click', openModal3);
+// modalBtn4.addEventListener('click', openModal4);
+// closeBtn1.addEventListener('click', closeModal1);
+// closeBtn2.addEventListener('click', closeModal2);
+// closeBtn3.addEventListener('click', closeModal3);
+// closeBtn4.addEventListener('click', closeModal4);
+// window.addEventListener('click', outsideClick);
 
 // Open
 function openModal1() {
@@ -80,7 +80,7 @@ var acc = document.getElementsByClassName("accordion");
 var i;
 
 for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
+  acc[i].addEventListener("click", function () {
     this.classList.toggle("active");
     var panel = this.nextElementSibling;
     if (panel.style.maxHeight) {
