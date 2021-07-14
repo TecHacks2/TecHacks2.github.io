@@ -248,8 +248,9 @@ body {
 
 .main__content p {
   margin-top: 1rem;
-  font-size: 2rem;
-  font-weight: 700;
+  font-size: 1.2rem;
+  font-weight: 800;
+  line-height: 200%;
 }
 
 .main__btn {
