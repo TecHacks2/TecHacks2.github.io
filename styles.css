@@ -6,11 +6,10 @@
 }
 
 body {
-  background-color: #000f3d;
+  background-image: url("images/bg5.gif");
 }
 
 .navbar {
-  background: #000f3d;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -128,7 +127,6 @@ body {
   }
 
   .navbar__menu.active {
-    background: #000f3d;
     top: 100%;
     opacity: 1;
     transition: all 0.5s ease;
@@ -200,7 +198,6 @@ body {
 
 /* Main Content CSS */
 .main {
-  background-color: #000f3d;
 }
 
 .main__container {
@@ -209,7 +206,6 @@ body {
   align-items: center;
   justify-self: center;
   margin: 0 auto;
-  background-color: #000f3d;
   z-index: 1;
   width: 100%;
   max-width: 1300px;
@@ -356,9 +352,31 @@ body {
   }
 }
 
+@import url("https://fonts.googleapis.com/css?family=Exo:400,700");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Exo", sans-serif;
+}
+
+.context {
+  width: 100%;
+  position: absolute;
+  top: 50vh;
+}
+
+.context h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+}
+
 /* About Section */
 .about {
-  background: #000f3d;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -373,7 +391,6 @@ body {
   align-items: center;
   justify-self: center;
   margin: 0 auto;
-  background-color: #000f3d;
   z-index: 1;
   width: 100%;
   max-width: 1300px;
@@ -419,7 +436,6 @@ body {
 
 /* Tracks */
 .tracks {
-  background: #000f3d;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -452,7 +468,6 @@ body {
   align-items: center;
   justify-self: center;
   margin: 0 auto;
-  background-color: #000f3d;
   z-index: 1;
   width: 100%;
   max-width: 1300px;
@@ -645,7 +660,6 @@ body {
 
 /* Schedule */
 .schedule {
-  background: #000f3d;
   /* display: flex; */
   flex-direction: column;
   justify-content: center;
@@ -835,7 +849,6 @@ p {
 
 /* Sponsors */
 .sponsors {
-  background: #000f3d;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -956,7 +969,6 @@ p {
 
 /* FAQ Section */
 .faq {
-  background: #000f3d;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1042,7 +1054,6 @@ p {
 
 /* Contact Form - Style inputs */
 .contact {
-  background: #000f3d;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1116,7 +1127,6 @@ input[type="submit"]:hover {
 
 /* Footer CSS */
 .footer__container {
-  background-color: #000f3d;
   padding: 5rem 0;
   display: flex;
   flex-direction: column;
