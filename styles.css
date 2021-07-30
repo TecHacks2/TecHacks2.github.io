@@ -847,6 +847,71 @@ p {
   line-height: 2.5rem;
 }
 
+/* Prizes */
+.prizes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.prizes h1 {
+  background-image: linear-gradient(to top, #f3a5f3 0%, #f37df3 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-size: 2.5rem;
+  margin-top: 125px;
+}
+
+.prizes h2 {
+  background-image: linear-gradient(-20deg, #2167ff 0%, #21d4fd 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  padding: 6px;
+  display: flex;
+  justify-content: center;
+}
+
+.prizes p {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+  padding: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.prizes img {
+  flex-wrap: wrap;
+  vertical-align: middle;
+  width: 50%;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
 /* Sponsors */
 .sponsors {
   display: flex;
@@ -871,8 +936,29 @@ p {
 
 .sponsors h2 {
   color: white;
+  background-color: #f37df3;
+  padding: 6px;
   display: flex;
   justify-content: center;
+}
+
+.sponsors p {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+  padding: 20px;
+  font-size: 18px;
+  text-align: center;
 }
 
 .sponsors__container {
@@ -954,9 +1040,10 @@ p {
 
 .sponsors img {
   flex-wrap: wrap;
-  margin-top: 8px;
+  margin-top: 12px;
+  margin-left: 30%;
   vertical-align: middle;
-  width: 60%;
+  width: 50%;
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
