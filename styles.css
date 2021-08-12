@@ -777,7 +777,7 @@ body {
   border: 1px solid #ccc;
   background-color: #000f3d;
   width: 30%;
-  height: 550px;
+  height: 350px;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -813,7 +813,7 @@ body {
   border: 1px solid #ccc;
   width: 70%;
   border-left: none;
-  height: 550px;
+  height: 350px;
   background-color: #000f3d;
 }
 
@@ -881,7 +881,7 @@ p {
 }
 
 .prizes p {
-  color: #FFFFFF;
+  color: #ffffff;
   display: flex;
   justify-content: center;
 }
