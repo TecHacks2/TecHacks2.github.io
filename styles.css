@@ -780,6 +780,11 @@ body {
   height: 400px;
 }
 
+@media screen and (max-width: 600px) {
+  .tab {
+    height: 600px;
+  }
+
 /* Style the buttons that are used to open the tab content */
 .tab button {
   display: block;
@@ -909,6 +914,18 @@ p {
   .grid-container {
     flex: 100%;
     max-width: 100%;
+    grid-template-columns: auto;
+  }
+
+  .grid-item {
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+  }
+  .prizes img {
+    flex-wrap: wrap;
+    vertical-align: middle;
+    width: 50%;
   }
 }
 
