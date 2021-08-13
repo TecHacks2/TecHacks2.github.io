@@ -777,7 +777,7 @@ body {
   border: 1px solid #ccc;
   background-color: #000f3d;
   width: 30%;
-  height: 350px;
+  height: 400px;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -813,7 +813,7 @@ body {
   border: 1px solid #ccc;
   width: 70%;
   border-left: none;
-  height: 350px;
+  height: 400px;
   background-color: #000f3d;
 }
 
