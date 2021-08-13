@@ -432,6 +432,9 @@ body {
   #about__img {
     display: none;
   }
+  .about p {
+    width: 300px;
+  }
 }
 
 /* Tracks */
@@ -780,11 +783,6 @@ body {
   height: 400px;
 }
 
-@media screen and (max-width: 600px) {
-  .tab {
-    height: 600px;
-  }
-
 /* Style the buttons that are used to open the tab content */
 .tab button {
   display: block;
@@ -820,6 +818,15 @@ body {
   border-left: none;
   height: 400px;
   background-color: #000f3d;
+}
+
+@media screen and (max-width: 600px) {
+  .tab {
+    height: 600px;
+  }
+  .tabcontent {
+    height: 600px;
+  }
 }
 
 /* Create two unequal columns that floats next to each other */
@@ -911,7 +918,10 @@ p {
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .grid-container {
+  .prizes {
+    display: none;
+  }
+  /* .grid-container {
     flex: 100%;
     max-width: 100%;
     grid-template-columns: auto;
@@ -926,7 +936,7 @@ p {
     flex-wrap: wrap;
     vertical-align: middle;
     width: 50%;
-  }
+  } */
 }
 
 /* Sponsors */
